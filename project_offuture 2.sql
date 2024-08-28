@@ -3,7 +3,7 @@
 
 
 /*
-create table student.offuture_22
+CREATE TABLE student.offuture_22
 	(row_id int,
 	order_id varchar(50),
 	order_date varchar(20),
@@ -30,12 +30,12 @@ create table student.offuture_22
 	order_priority varchar(50));
 
 
-select * from student.offuture_22;
+SELECT * FROM student.offuture_22;
 
 
-grant all on student.offuture_22 to da10_jaan, da10_akam, da10_egdu, da10_raor;
-
+GRANT ALL ON student.offuture_22 TO da10_jaan, da10_akam, da10_egdu, da10_raor;
 */
+
 
 
 -- [SQL01] COUNT OF ROWS ----------------------------------------------------------------------
